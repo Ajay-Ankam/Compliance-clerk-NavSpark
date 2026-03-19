@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets and Local Config
+.env
+.flaskenv
+
+# Streamlit logs and config
+.streamlit/
+
+# Database files (SQLite)
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific exports (if you want to keep them local)
+exports/*.csv
+exports/*.xlsx
+
+# User-specific PDF uploads (for security/privacy)
+uploads/
+*.pdf
